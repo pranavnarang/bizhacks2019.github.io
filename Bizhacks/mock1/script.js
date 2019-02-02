@@ -22,13 +22,12 @@ function handleLanguage(language){
        case "french":
            outLang = 'fr';
            voice = 'French Female';
-           text = 'Français';
+           text = 'Appuyez ici pour parler';
            break;
        case "chinese":
            outLang = 'zh';
            voice = 'Chinese Female';
-           text = '普通话'
-              console.log( '!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+           text = '点按这里发言'
            break;
        case "spanish":
            outLang = 'es';

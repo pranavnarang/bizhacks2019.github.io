@@ -1,0 +1,59 @@
+h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 120px;
+    text-shadow: 0px 0px 15px rgba(38, 38, 38, 0.60);
+}
+
+.main {
+    text-align: center;
+    margin-top: 130px;
+}
+
+img {
+    filter: drop-shadow(5px 5px 5px #222); 
+}
+
+.main img {
+    border-radius: 50%;
+    width: 50%;
+    box-shadow:  0px 3px 100px 0px rgba(38, 38, 38, 0.90);
+}
+
+.icon {
+    box-shadow: 5px 5px 15px 0px #1D1D1D;
+}
+body {
+    background-image: linear-gradient(#1795D4, #053C63);
+    margin-bottom: 200px;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px rgba(38, 38, 38, 0.60);
+  border-radius: 10px;
+    font-size: 90px;
+    margin-top: 50px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #fcf455 0%, #fda085 51%, #fcf455 100%);
+}
